@@ -38,7 +38,11 @@ choco install stretchly -fy
 choco install git -fy
 choco install git-fork -fy
 
-:: IDE
+:: DATABASE
+choco install sql-server-2019 -fy
+choco install sql-server-management-studio -fy
+
+:: IDE (CODE)
 choco install vscode -fy
 choco install visualstudio2022community -fy
 :: choco install visualstudio2022professional -fy
